@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+  </head>
+<body>
+    <div class="card-title text-dark h4" style="text-align: center;"> Datos de Usuario </div>
+    </div>
+    <div class="card-body">
+    <form action="pregunta2.php" method="post">
+    <div class="form-group text-align">
+    <form>
+        <div class="form-group">
+            <label class="form-label">Nombre y Apellido</label>
+            <input id="nombre" name="nombre" type="text" class="form-control"  placeholder="Nombre del usuario" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Dirección</label>
+          <input id="direccion" name="direccion" type="text" class="form-control"  placeholder="Dirección del usuario" required>
+        </div>       
+        <div class="form-group">
+          <label class="form-label">E-mail</label>
+          <input id="email" name="email" class="form-control" placeholder="Correo electronico" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Edad</label>
+          <input id="edad" name="edad" class="form-control" placeholder="Edad" required>
+        </div>        
+        </div>
+        <button type= "submit" class="btn btn-primary">Enviar</button>
+        <button type= "reset" class="btn btn-light sm-2mt-3">Limpiar</button>
+      </form>
+</body>
+</html>
